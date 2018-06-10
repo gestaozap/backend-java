@@ -14,6 +14,7 @@ public class ApplicationApis extends Application {
         Set<Class<?>> classes = new HashSet<Class<?>>();
         classes.add(SaleWS.class);
         classes.add(ReceiveWS.class);
+        classes.add(ExpenseWS.class);
         return classes;
     }
 }
