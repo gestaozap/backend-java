@@ -15,6 +15,7 @@ public class ApplicationApis extends Application {
         classes.add(SaleWS.class);
         classes.add(ReceiveWS.class);
         classes.add(ExpenseWS.class);
+        classes.add(TicketWS.class);
         return classes;
     }
 }
