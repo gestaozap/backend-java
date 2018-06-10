@@ -1,9 +1,9 @@
-br/com/ciabfebraba/filter/CorsFilter.class
 br/com/ciabfebraban/model/Sale.class
+br/com/ciabfebraban/filter/RedirectFilter.class
 br/com/ciabfebraban/conn/MyUtils.class
-br/com/ciabfebraba/filter/RedirectFilter.class
+br/com/ciabfebraban/filter/CorsFilter.class
 ciabfebraban/gestaozap/App.class
 br/com/ciabfebraban/ws/ApplicationApis.class
 br/com/ciabfebraban/conn/CloudantClientMgr.class
 br/com/ciabfebraban/ws/SaleWS.class
-br/com/ciabfebraba/filter/ConnFilter.class
+br/com/ciabfebraban/filter/ConnFilter.class

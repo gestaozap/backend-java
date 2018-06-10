@@ -6,7 +6,6 @@ import java.util.Set;
 import com.cloudant.client.api.ClientBuilder;
 import com.cloudant.client.api.CloudantClient;
 import com.cloudant.client.api.Database;
-//import com.cloudant.client.org.lightcouch.CouchDbException;
 import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
@@ -38,7 +37,8 @@ public class CloudantClientMgr {
 		String serviceName = null;
 
 		if (VCAP_SERVICES != null) {
-			// When running in Bluemix, the VCAP_SERVICES env var will have the credentials for all bound/connected services
+			// When running in Bluemix, the VCAP_SERVICES env var will have the credentials
+			// for all bound/connected services
 			// Parse the VCAP JSON structure looking for cloudant.
 			JsonObject obj = (JsonObject) new JsonParser().parse(VCAP_SERVICES);
 			Entry<String, JsonElement> dbEntry = null;
@@ -68,11 +68,10 @@ public class CloudantClientMgr {
 		}
 
 //		try {
-			System.out.println("Connecting to Cloudant : " + user);
-			CloudantClient client = ClientBuilder.account(user)
-					.username(user)
-					.password(password)
-					.build();
+			System.out.println("Connecting to Cloudant User: " + user);
+			System.out.println("Connecting to Cloudant Password: " + password);
+			
+			CloudantClient client = ClientBuilder.account(user).username(user).password(password).build();
 			return client;
 //		} catch (CouchDbException e) {
 //			throw new RuntimeException("Unable to connect to repository", e);

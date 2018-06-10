@@ -1,9 +1,9 @@
 /Users/matheuscatossi/eclipse-workspace/gestaozap/src/main/java/br/com/ciabfebraban/ws/SaleWS.java
 /Users/matheuscatossi/eclipse-workspace/gestaozap/src/main/java/br/com/ciabfebraban/model/Sale.java
 /Users/matheuscatossi/eclipse-workspace/gestaozap/src/main/java/br/com/ciabfebraban/conn/MyUtils.java
-/Users/matheuscatossi/eclipse-workspace/gestaozap/src/main/java/br/com/ciabfebraba/filter/CorsFilter.java
 /Users/matheuscatossi/eclipse-workspace/gestaozap/src/main/java/br/com/ciabfebraban/conn/CloudantClientMgr.java
 /Users/matheuscatossi/eclipse-workspace/gestaozap/src/main/java/ciabfebraban/gestaozap/App.java
+/Users/matheuscatossi/eclipse-workspace/gestaozap/src/main/java/br/com/ciabfebraban/filter/ConnFilter.java
 /Users/matheuscatossi/eclipse-workspace/gestaozap/src/main/java/br/com/ciabfebraban/ws/ApplicationApis.java
-/Users/matheuscatossi/eclipse-workspace/gestaozap/src/main/java/br/com/ciabfebraba/filter/ConnFilter.java
-/Users/matheuscatossi/eclipse-workspace/gestaozap/src/main/java/br/com/ciabfebraba/filter/RedirectFilter.java
+/Users/matheuscatossi/eclipse-workspace/gestaozap/src/main/java/br/com/ciabfebraban/filter/RedirectFilter.java
+/Users/matheuscatossi/eclipse-workspace/gestaozap/src/main/java/br/com/ciabfebraban/filter/CorsFilter.java

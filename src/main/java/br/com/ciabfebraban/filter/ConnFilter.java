@@ -17,6 +17,7 @@ import com.cloudant.client.api.Database;
 import br.com.ciabfebraban.conn.CloudantClientMgr;
 import br.com.ciabfebraban.conn.MyUtils;
 
+
 /**
  * Servlet Filter implementation class RedirectFilter
  */
@@ -54,6 +55,7 @@ public class ConnFilter implements Filter {
 				+ ", URL =" + req.getRequestURL());
 
 		Database conn = null;
+		
 		try {
 			conn = CloudantClientMgr.getDB();
 			MyUtils.storeConnection(request, conn);
