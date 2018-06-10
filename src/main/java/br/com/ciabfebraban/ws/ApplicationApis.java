@@ -13,6 +13,7 @@ public class ApplicationApis extends Application {
     public Set<Class<?>> getClasses() {
         Set<Class<?>> classes = new HashSet<Class<?>>();
         classes.add(SaleWS.class);
+        classes.add(ReceiveWS.class);
         return classes;
     }
 }

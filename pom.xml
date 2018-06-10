@@ -9,7 +9,7 @@
 	<version>1.0-SNAPSHOT</version>
 	<packaging>war</packaging>
 
-	<name>plc</name>
+	<name>gestaozap-project</name>
 	<url>https://gestaozap-project.mybluemix.net</url>
 
 	<licenses>

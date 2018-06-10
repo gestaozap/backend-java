@@ -8,9 +8,18 @@ public class Sale {
 	private String description;
 	private String date;
 	private String type;
+	private String name;
 	
 	public Sale() {
 		this.type = "SALE";
+	}
+	
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
 	}
 
 	public String get_id() {
